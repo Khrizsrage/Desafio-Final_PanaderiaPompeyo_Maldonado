@@ -1,0 +1,22 @@
+{
+  "name": "desafio-final",
+  "version": "1.0.0",
+  "description": "Desafio Final Desarrollo WEB",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-sass --include-path sass ./sass/index.scss ./css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Khrizsrage/Desafio-Final_PanaderiaPompeyo_Maldonado.git"
+  },
+  "author": "Christian Maldonado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Khrizsrage/Desafio-Final_PanaderiaPompeyo_Maldonado/issues"
+  },
+  "homepage": "https://github.com/Khrizsrage/Desafio-Final_PanaderiaPompeyo_Maldonado#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
