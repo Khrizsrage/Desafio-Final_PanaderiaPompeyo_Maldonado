@@ -110,7 +110,8 @@ footer {
   margin: auto; }
 
 .sitio {
-  flex-grow: 1; }
+  flex-grow: 1;
+  color: white !important; }
 
 .sitio a {
   display: block;
@@ -225,6 +226,51 @@ a, a:hover {
   background: url("../assets/_images/card-pasteleria.jpg") no-repeat center;
   background-size: cover; }
 
+.section-products #product-6 .part-1::before {
+  background: url("../assets/_images/brazo_de_reina.jpg") no-repeat center;
+  background-size: cover;
+  transition: all 0.3s; }
+
+.section-products #product-7 .part-1::before {
+  background: url("../assets/_images/torta_sonic.jpg") no-repeat center;
+  background-size: cover; }
+
+.section-products #product-8 .part-1::before {
+  background: url("../assets/_images/canape.jpg") no-repeat center;
+  background-size: cover; }
+
+.section-products #product-9 .part-1::before {
+  background: url("../assets/_images/tapadito.jpg") no-repeat center;
+  background-size: cover; }
+
+.section-products #product-10 .part-1::before {
+  background: url("../assets/_images/cheesscake_arandanos.jpg") no-repeat center;
+  background-size: cover; }
+
+.section-products #product-11 .part-1::before {
+  background: url("../assets/_images/card-banqueteria.jpg") no-repeat center;
+  background-size: cover; }
+
+.section-products #product-12 .part-1::before {
+  background: url("../assets/_images/pie_limon.jpeg") no-repeat center;
+  background-size: cover; }
+
+.section-products #product-13 .part-1::before {
+  background: url("../assets/_images/torta_lucuma.jpeg") no-repeat center;
+  background-size: cover; }
+
+.section-products #product-14 .part-1::before {
+  background: url("../assets/_images/mendocino_coctel.jpeg") no-repeat center;
+  background-size: cover; }
+
+.section-products #product-15 .part-1::before {
+  background: url("../assets/_images/tapadito.jpg") no-repeat center;
+  background-size: cover; }
+
+.section-products #product-16 .part-1::before {
+  background: url("../assets/_images/tapadito.jpg") no-repeat center;
+  background-size: cover; }
+
 .section-products .single-product .part-1 .discount,
 .section-products .single-product .part-1 .new {
   position: absolute;
@@ -294,6 +340,36 @@ a, a:hover {
   height: 1px;
   background-color: #444444;
   transform: translateY(-50%); }
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical; }
+
+input[type=submit] {
+  background-color: #04AA6D;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer; }
+
+input[type=submit]:hover {
+  background-color: #F7AD41; }
+
+.container-pedidos {
+  background-color: #838383;
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+  width: 100%; }
 
 .blackbox {
   padding-top: 10px;
@@ -415,7 +491,7 @@ a, a:hover {
     background-color: #414141;
     border-color: #414141; }
 
-/* Formulario contacto */
+/* Formulario Pedidos*/
 .contendorContacto {
   margin-top: 100px;
   margin-left: -20px;
